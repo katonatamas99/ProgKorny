@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk-alpine3.14
 
-COPY "./target/roleplay.jar" "/application/roleplay.jar"
+COPY "./target/books.jar" "/application/books.jar"
 
-CMD ["java", "-jar", "/application/roleplay.jar"]
+CMD ["java", "-jar", "/application/books.jar"]
